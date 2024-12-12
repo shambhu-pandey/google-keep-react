@@ -5,9 +5,79 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(129, 126, 126);
+  height : 100%;
+  width: 100%;
 }
 
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo{
+  background-color: rgb(253, 182, 5);
+  padding: 20px;
+}
+
+
+.copyright_div {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f9fa; /* Background color for the copyright bar */
+}
+
+.copyright {
+  text-align: center; /* Center-align the text */
+  padding: 10px 0; /* Add some padding for better readability */
+  margin: 0; /* Remove default margin */
+}
+
+.input_box{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height : 14vh;
+  border: none;
+  background-color: azure;
+  margin-top:  1vh;
+  border-radius: 10px;
+
+}
+.main_div{
+display: flex;
+justify-content: center;
+}
+
+.title{
+  height: 4vh;
+  border: none;
+  border-radius: 10px;
+}
+
+.add_title{
+  height: 4vh;
+  border: none;
+
+}
+
+.add_Note{
+  height: 4vh;
+  border: none;
+  text-align: end;
+  color:rgb(253, 182, 5);
+  background-color: rgb(253, 182, 5);
+  border-radius: 50vh;
+  padding-right: 2%;
+  cursor: pointer;
+  margin-left: 90%;
+  
+}
+
